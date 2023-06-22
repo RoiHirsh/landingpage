@@ -1,6 +1,7 @@
 
 body {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: 'Varela Round', Alef, 'Open Sans', sans-serif;
   color: #444444;
 }
 
@@ -20,7 +21,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: 'Varela Round', Alef, 'Open Sans', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -118,7 +120,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(1, 4, 136, 0.9);
+  background: rgba(66,133,244,0.98);
   height: 60px;
 }
 
@@ -172,7 +174,8 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: 'Varela Round', Alef, 'Open Sans', sans-serif;
   color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
   transition: 0.3s;
@@ -191,8 +194,8 @@ h6 {
   width: 0;
   height: 2px;
   bottom: 3px;
-  left: 30px;
-  background-color: #1acc8d;
+  /* background-color: #1acc8d; */
+  background-color: #FFAB40;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -402,14 +405,14 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url("../img/hero-bg.jpg");
+  background: url("../img/poli-hero-bg.jpg");
   position: relative;
   padding: 120px 0 0 0;
 }
 
 #hero:before {
   content: "";
-  background: rgba(2, 5, 161, 0.91);
+  background: rgba(66,133,244,0.9);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -427,7 +430,8 @@ h6 {
 
 #hero h1 span {
   color: #fff;
-  border-bottom: 4px solid #1acc8d;
+  /* border-bottom: 4px solid #1acc8d; */
+  border-bottom: 4px solid #FFAB40;
 }
 
 #hero h2 {
@@ -437,7 +441,8 @@ h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: 'Varela Round', Alef, 'Open Sans', sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -446,11 +451,11 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
-  background: #1acc8d;
+  background: #FFAB40;
 }
 
 #hero .btn-get-started:hover {
-  background: #17b57d;
+  background: #FFAB40;
 }
 
 #hero .animated {
@@ -588,7 +593,8 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: 'Varela Round', Alef, 'Open Sans', sans-serif;
 }
 
 .section-title h2::after {
@@ -606,7 +612,8 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: 'Varela Round', Alef, 'Open Sans', sans-serif;
   color: #010483;
 }
 
@@ -905,8 +912,26 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: 'Varela Round', Alef, 'Open Sans', sans-serif;
   font-size: 14px;
+}
+
+/*--------------------------------------------------------------
+# video
+--------------------------------------------------------------*/
+/* Adjust the height of the video section to cover the entire viewport */
+#video {
+  height: 90vh;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Add a parallax effect to the video section */
+.video-section {
+  perspective: 1px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 /*--------------------------------------------------------------
@@ -1175,7 +1200,8 @@ section {
   font-size: 36px;
   color: #1acc8d;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: 'Varela Round', Alef, 'Open Sans', sans-serif;
   margin-bottom: 20px;
 }
 
@@ -1231,7 +1257,8 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: 'Varela Round', Alef, 'Open Sans', sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1284,7 +1311,8 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: 'Varela Round', Alef, 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -1512,7 +1540,8 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: 'Varela Round', Alef, 'Open Sans', sans-serif;
 }
 
 #footer .footer-top .social-links a {
