@@ -1680,7 +1680,7 @@ section {
 #footer .footer-top .footer-newsletter form input[type=submit] {
   position: absolute;
   top: 0;
-  right: -2px;
+  left: -2px;
   bottom: 0;
   border: 0;
   background: none;
