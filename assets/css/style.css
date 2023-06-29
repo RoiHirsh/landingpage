@@ -404,7 +404,8 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url("../img/poli-hero-bg.jpg");
+  /* background: url("../img/poli-hero-bg.jpg"); */
+  background-color: #4285F4;
   position: relative;
   padding: 120px 0 0 0;
 }
@@ -935,7 +936,7 @@ section {
 .video-container {
   position: relative;
   overflow: hidden;
-  height: 80vh ;
+  height: 60vh;
 }
 
 .video-container video {
@@ -963,7 +964,7 @@ section {
   color: #fff; /* Set the font color to white */
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   padding: 50px; /* Adjust the padding as desired */
   text-align: right;
