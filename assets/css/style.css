@@ -404,15 +404,19 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+#hero, #poli-for-parking-lots  {
   width: 100%;
-  /* background: url("../img/poli-hero-bg.jpg"); */
+  background: url("../img/poli-hero-bg.jpg");
   background-color: #4285F4;
   position: relative;
   padding: 120px 0 0 0;
 }
 
-#hero:before {
+#poli-for-parking-lots {
+  background: url("../img/poli-parking-lot.png");
+}
+
+#hero:before, #poli-for-parking-lots:before {
   content: "";
   background: rgba(66,133,244,0.9);
   position: absolute;
@@ -422,7 +426,11 @@ h6 {
   right: 0;
 }
 
-#hero h1 {
+#poli-for-parking-lots:before {
+  background: rgba(66,133,244,0.7);
+}
+
+#hero h1, #poli-for-parking-lots h1  {
   margin: 0 0 20px 0;
   font-size: 48px;
   font-weight: 700;
@@ -430,18 +438,18 @@ h6 {
   color: rgba(255, 255, 255, 0.8);
 }
 
-#hero h1 span {
+#hero h1 span, #poli-for-parking-lots h1 span {
   color: #fff;
   /* border-bottom: 4px solid #FFAB40; */
 }
 
-#hero h2 {
+#hero h2, #poli-for-parking-lots h2  {
   color: rgba(255, 255, 255, 0.8);
   margin-bottom: 40px;
   font-size: 24px;
 }
 
-#hero .btn-get-started {
+#hero .btn-get-started, #poli-for-parking-lots .btn-get-started {
   /* font-family: "Montserrat", sans-serif; */
   font-family: 'Varela Round', Alef, 'Open Sans', sans-serif;
   font-weight: 500;
@@ -455,11 +463,11 @@ h6 {
   background: rgb(255 255 255);
 }
 
-#hero .btn-get-started:hover {
+#hero .btn-get-started:hover, #poli-for-parking-lots .btn-get-started:hover {
   background: rgb(255 255 255);;
 }
 
-#hero .animated {
+#hero .animated, #poli-for-parking-lots .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
@@ -469,8 +477,14 @@ h6 {
   margin-left: 10px;
 }
 
+#poli-for-parking-lots .inline-text-logo {
+  width: 60px;
+  margin-top: -11px;
+  margin-left: 2px;
+}
+
 @media (min-width: 1024px) {
-  #hero {
+  #hero, #poli-for-parking-lots  {
     background-attachment: fixed;
   }
 }
@@ -484,33 +498,33 @@ h6 {
     height: 100%!important;
   }
 
-  #hero .inline-text-logo {
+  #hero .inline-text-logo, #poli-for-parking-lots .inline-text-logo {
     width: 60px;
     margin-top: -5px;
   }
-  #hero {
+  #hero, #poli-for-parking-lots  {
     padding-top: 80px;
   }
 
-  #hero .animated {
+  #hero .animated, #poli-for-parking-lots .animated {
     animation: none;
   }
 
-  #hero .hero-img {
+  #hero .hero-img, #poli-for-parking-lots .hero-img {
     text-align: center;
   }
 
-  #hero .hero-img img {
+  #hero .hero-img img, #poli-for-parking-lots  .hero-img img {
     max-width: 50%;
   }
 
-  #hero h1 {
+  #hero h1, #poli-for-parking-lots h1 {
     font-size: 28px;
     line-height: 32px;
     margin-bottom: 10px;
   }
 
-  #hero h2 {
+  #hero h2, #poli-for-parking-lots h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
@@ -518,7 +532,7 @@ h6 {
 }
 
 @media (max-width: 575px) {
-  #hero .hero-img img {
+  #hero .hero-img img, #poli-for-parking-lots .hero-img img {
     width: 80%;
   }
 }
