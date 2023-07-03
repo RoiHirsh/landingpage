@@ -478,8 +478,8 @@ h6 {
 }
 
 #poli-for-parking-lots .inline-text-logo {
-  width: 60px;
-  margin-top: -11px;
+  width: 50px;
+  margin-top: -2px;
   margin-left: 2px;
 }
 
@@ -498,9 +498,13 @@ h6 {
     height: 100%!important;
   }
 
-  #hero .inline-text-logo, #poli-for-parking-lots .inline-text-logo {
+  #hero .inline-text-logo {
     width: 60px;
     margin-top: -5px;
+  }
+  #poli-for-parking-lots .inline-text-logo {
+    width: 43px;
+    margin-top: -4px;
   }
   #hero, #poli-for-parking-lots  {
     padding-top: 80px;
@@ -730,10 +734,10 @@ section {
 }
 
 .about .icon-boxes {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 .about .icon-boxes h3 {
-  font-size: 36px;
+  font-size: clamp(1.75rem, 1.4573rem + 0.9756vw, 2.25rem);
   font-weight: 700;
   color: #4285F4;
   margin-bottom: 15px;
@@ -741,15 +745,16 @@ section {
 }
 
 .about .text-center .title {
-  font-size: 28px;
+  font-size: clamp(1.25rem, 0.9573rem + 0.9756vw, 1.75rem);
 }
 
 .about .text-center .description {
-  font-size: 20px;
+  font-size: clamp(1rem, 0.8537rem + 0.4878vw, 1.25rem);
+  line-height: normal;
 }
 
 .about .icon-boxes h4 {
-  font-size: 30px;
+  font-size: clamp(1.5rem, 1.2073rem + 0.9756vw, 2rem);
   text-align: center;
   padding-left: 15%;
   padding-right: 15%;
