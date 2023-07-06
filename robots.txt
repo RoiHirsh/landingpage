@@ -3,4 +3,4 @@ Disallow: /private/
 Disallow: /admin/
 Disallow: /tmp/
 Disallow: /cgi-bin/
-Sitemap: http://get-poli.com/sitemap.xml
+Sitemap: https://get-poli.com/sitemap.xml
