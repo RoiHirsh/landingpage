@@ -1,6 +1,6 @@
 User-agent: *
-Disallow: /private/
-Disallow: /admin/
+Disallow: /assets/
+Disallow: /forms/
 Disallow: /tmp/
 Disallow: /cgi-bin/
 Sitemap: http://get-poli.com/sitemap.xml
